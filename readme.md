@@ -30,7 +30,7 @@ Os usuários devem ser capazes de:
 ### Links
 
 - Solução: [Github](https://github.com/Vitor5782/Projeto-6-FrontEndMentor)
-- Live Site URL: [GithubPages](#)
+- Live Site URL: [GithubPages](https://vitor5782.github.io/Projeto-6-FrontEndMentor/)
 
 ## Como pensei ao construir:
 Para fazer esse projeto estou pensando e ter 4 colunas de mesmo tamanho
