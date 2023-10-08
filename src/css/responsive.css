@@ -1,0 +1,15 @@
+@media (max-width:950px) {
+     main{
+        height: auto;
+     }
+    .container {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .card-2{
+        padding-bottom: 2rem;
+    }
+}

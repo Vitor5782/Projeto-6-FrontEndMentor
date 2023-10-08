@@ -1,0 +1,14 @@
+:root{
+    --bg-color-card-purple:hsl(263, 55%, 52%);
+    --bg-color-card-gray:hsl(217, 19%, 32%);
+    --bg-color-card-black:hsl(219, 29%, 14%);
+    --bg-color-card-white:hsl(0, 0%, 100%);
+    --font-color-gray:hsl(217, 19%, 32%);
+    --font-color-gray-50:hsla(217, 19%, 32%, 0.5);
+    --font-color-gray-70:hsla(217, 19%, 32%, 0.7);
+    --font-color-grayishBlue:hsl(210, 46%, 95%);
+    --font-color-grayishBlue-50:hsla(210, 46%, 95%, 0.5);
+    --font-color-grayishBlue-70:hsla(210, 46%, 95%, 0.7);
+    --font-color-footer:hsl(228, 45%, 44%);
+    --font-family:'Barlow Semi Condensed', sans-serif;
+}

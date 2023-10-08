@@ -1,0 +1,207 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.3rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "card-1 card-1 card-2 card-3"
+        "card-4 card-5 card-5 card-3";
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    width: 80%;
+    font-family: var(--font-family);
+}
+
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.profile-img {
+    margin-right: 2rem;
+}
+
+.profile-img img {
+    height: 3.5rem;
+    border-style: solid;
+    border-radius: 2rem;
+}
+
+.description h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.description p {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.card-1 {
+    grid-area: card-1;
+    padding: 2rem;
+    background: var(--bg-color-card-purple) url(../images/bg-pattern-quotation.svg) 80% 0% no-repeat;
+    background-size: 9rem 10rem;
+}
+
+.card-1 .profile-img img {
+    color: var(--font-color-grayishBlue-70);
+}
+
+.card-1 .name {
+    color: var(--font-color-grayishBlue);
+}
+
+.card-1 .graduate {
+    color: var(--font-color-grayishBlue-50);
+}
+
+.card-1 .description h1 {
+    color: var(--font-color-grayishBlue);
+}
+
+.card-1 .description p {
+    color: var(--font-color-grayishBlue-70);
+}
+
+.card-2 {
+    grid-area: card-2;
+    background-color: var(--bg-color-card-gray);
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
+.card-2 .profile-img img {
+    color: var(--font-color-grayishBlue);
+}
+
+.card-2 .name {
+    color: var(--font-color-grayishBlue);
+}
+
+.card-2 .graduate {
+    color: var(--font-color-grayishBlue-50);
+}
+
+.card-2 .description h1 {
+    color: var(--font-color-grayishBlue);
+}
+
+.card-2 .description p {
+    color: var(--font-color-grayishBlue-70);
+}
+
+.card-3 {
+    grid-area: card-3;
+    background-color: var(--bg-color-card-white);
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
+.card-3 .profile-img img {
+    color: var(--font-color-grayishBlue-70);
+}
+
+.card-3 .name {
+    color: var(--font-color-gray);
+}
+
+.card-3 .graduate {
+    color: var(--font-color-gray-50);
+}
+
+.card-3 .description h1 {
+    color: var(--font-color-gray);
+}
+
+.card-3 .description p {
+    color: var(--font-color-gray-70);
+}
+
+.card-4 {
+    grid-area: card-4;
+    background-color: var(--bg-color-card-white);
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+
+.card-4 .profile-img img {
+    color: var(--font-color-grayishBlue-70);
+}
+
+.card-4 .name {
+    color: var(--font-color-gray);
+}
+
+.card-4 .graduate {
+    color: var(--font-color-gray-50);
+}
+
+.card-4 .description h1 {
+    color: var(--font-color-gray);
+}
+
+.card-4 .description p {
+    color: var(--font-color-gray-70);
+}
+
+.card-5 {
+    grid-area: card-5;
+    background-color: var(--bg-color-card-black);
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+
+.card-5 .profile-img img {
+    color: var(--bg-color-card-purple);
+}
+
+.card-5 .name {
+    color: var(--font-color-grayishBlue);
+}
+
+.card-5 .graduate {
+    color: var(--font-color-grayishBlue-50);
+}
+
+.card-5 .description h1 {
+    color: var(--font-color-grayishBlue);
+}
+
+.card-5 .description p {
+    color: var(--font-color-grayishBlue-70);
+}
+
+.card-3,
+.card-4 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    ;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+    border-radius: 1rem;
+}
+
+.rodape a{
+    color: var(--font-color-footer);
+}
